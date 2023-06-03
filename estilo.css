@@ -1,0 +1,341 @@
+/*
+* 
+* @author Jamilton Damasceno
+*/
+html, body, #home { 
+		height: 100%;
+		overflow-x: hidden;
+}
+
+
+body {
+
+background: url(imagens/fundo-brabo.png)
+			
+				
+			;
+background-attachment: fixed;		
+font-family: Helvetica,Arial,sans-serif;	
+
+}
+
+nav.navbar-transparente{
+padding: 15px 0px;
+background: rgba(0, 0, 0, 0.6 );
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+color: #9bf0e1;
+}
+
+
+.navbar-light .navbar-toggler {
+color: rgba(0, 0, 0, 5);
+border-color: rgba(255,255,255,0,5);
+}
+
+.divisor {
+
+width: 1px;
+background: white;
+margin: 15px 12px;
+
+}
+
+.carousel-control-next, .carousel-control-prev {
+width: 5%;
+}
+
+
+#caixa {
+
+width: 80px;
+height: 80px;
+background: url(imagens/wpp.jpeg) no-repeat;
+float: right;
+padding-right: 1000px;
+
+
+}
+
+
+
+@keyframes animacao-caixa{
+
+	from{
+
+ 
+ background: url(imagens/animacao1.jpeg) no-repeat center;	
+ border-radius: 300px;
+ top: 0;
+ left: 0;
+
+
+	}	
+	to{
+
+background: url(imagens/animacao2.jpeg) no-repeat center;
+border-radius: 300px;
+top: 0;
+left: 300px;
+
+
+	}
+	}
+	.animacao {
+width: 180px;
+height: 180px;
+background: url(imagens/animacao0.jpeg) no-repeat center ;
+position: relative;
+animation-name: animacao-caixa;
+animation-duration: 10s;
+animation-delay: 0s;
+animation-iteration-count: 2;
+animation-direction: alternate; 
+
+-moz-animation: animacao-caixa 10s 0s 10 alternate;
+-webkit-animation: animacao-caixa 10s 0s 10 alternate;
+-o-animation: animacao-caixa 10s 1s 10 alternate;
+animation: animacao-caixa 10s 0s 10 alternate;
+
+
+}
+
+.linksantos {
+width: 70px;
+height: 200px;
+background: #8A0808;
+float: right;
+}
+
+.linksantos a {
+color: white;
+}
+
+.linksantos a:hover {
+color: #00FFBF;
+}
+
+
+.alert:hover{
+
+	background: #A4A4A4;
+}
+
+.alert a {
+text-decoration: none;
+padding-left: 10px;
+color: red;
+}
+
+.alert a:hover {
+color: #2E2EFE;
+}
+
+@keyframes animacao-caixa1{
+
+	from{
+
+ 
+ background: url(imagens/nova-animacao2.jpeg) no-repeat center;	
+ border-radius: 300px;
+ top: 0;
+ left: 0;
+
+
+	}	
+	to{
+
+background: url(imagens/nova-animacao.jpeg) no-repeat center;
+border-radius: 300px;
+top: 0;
+left: 800px;
+
+
+	}
+	}
+	.animacao1 {
+width: 400px;
+height: 380px;
+background: url(imagens/nova-animacao.jpeg) no-repeat center ;
+position: relative;
+animation-name: animacao-caixa1;
+animation-duration: 6s;
+animation-delay: 0s;
+animation-iteration-count: 2;
+animation-direction: alternate; 
+
+-moz-animation: animacao-caixa1 6s 0s 10 alternate;
+-webkit-animation: animacao-caixa1 6s 0s 10 alternate;
+-o-animation: animacao-caixa1 6s 1s 10 alternate;
+animation: animacao-caixa1 6s 0s 10 alternate;
+}
+
+.form-group {
+padding-top: 10px;
+}
+
+.icones-redes {
+width: 332;
+}
+
+.segmentos-custom{	
+text-align: center;	
+color: #B40431;
+}
+
+.segmentos-custom-coluna{
+background: url(imagens/coluna.png) repeat-y top ;	
+}
+
+.segmentos-custom li a {
+color: #088A85;
+}
+
+.segmentos-custom li a:hover {
+color: #0040FF;
+}
+
+.segmentos-links-flutuantes {
+
+background: url(imagens/fundo-propaganda.jpeg);
+width: 200px;
+height: auto;
+float: right;
+text-align: right;
+}
+
+.segmentos-links-flutuantes a:hover {
+color: #0B0B61;
+	}
+
+/*#FAAC58*/
+.propaganda {
+
+background: url(imagens/fundo-propaganda.jpeg);
+width: 200px;
+height: auto;
+float: left;
+}
+
+.propaganda-reconcavo {
+
+background-image: linear-gradient(to right, #A4A4A4 , white);
+width: 200px;
+height: auto;
+float: right;
+text-align: right;
+
+}
+
+.propaganda-reconcavo a{
+	color: ;
+}
+
+.propaganda-inicio {
+
+background-image: linear-gradient(to right, #A4A4A4 , white);
+width: 200px;
+height: auto;
+float: right;
+text-align: right;
+
+}
+
+.fundo-drop{
+background-image: linear-gradient(to right, #D8D8D8 , #848484);
+
+}
+
+
+
+footer {
+background: #000;
+padding: 50px 0 20px 0;
+position: relative;
+}
+
+footer h4 {
+color: #919496;
+font-size: 0.8em;
+text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+
+color: white;
+font-size: 0.8em;
+
+}
+
+footer .navbar-nav a:hover {
+
+color: #04B4AE;
+text-decoration: none;
+}
+
+footer ul {
+list-style: none;
+}
+
+footer ul li {
+
+float: right;
+margin: 0 5px;
+padding: 6px;
+
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+ No media query since this is the default in Bootstrap
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+
+.display-4 {
+
+font-size: 0.8em;
+
+}
+
+ }
+
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+
+.display-4 {
+
+font-size: 2em;
+
+}
+
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+
+.display-4 {
+
+font-size: 3em;
+
+}
+
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+.display-4 {
+
+font-size: 4em;
+
+}
+
+ }
